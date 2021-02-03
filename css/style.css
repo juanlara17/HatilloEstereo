@@ -1,12 +1,26 @@
 body {
-  background-image: url('https://www.onfirecafe.net/wp-content/uploads/2017/05/microphone-780178_1920.jpg');
+  background-image: url('../images/microphone-780178_1920 1.png');
   background-size: cover;
-  background-position: center center;
+  background-position: center right;
   background-attachment: fixed;
 }
 
-iframe {
+.media-player {
   bottom: -10px;
   position: absolute;
   padding-bottom: 0;
+}
+
+.chat-frame {
+  width: 70%;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px){
+  .chat-frame {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+  }
 }
